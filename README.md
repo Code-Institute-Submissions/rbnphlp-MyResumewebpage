@@ -42,12 +42,25 @@ The project is an attempt to present my resume in a user friendly and interactiv
 
 ## Technologies Used
 
++ HTML 
++ CSS
++ Bootstrap
++ Git 
+
+
 ## Testing
+
+ To be added 
 
 
 ## Deployment
+Github pages
 
 ## Credits
+
+Inspiration from :
+
++ https://demo.themewagon.com/preview/free-bootstrap-html5-template-personal-cv-portfolio-website
 
 ## Content 
 
