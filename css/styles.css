@@ -6,6 +6,11 @@
 /*--------------------- Heading--------------------*/
 .logo{
 
-background: url('../css/images/logo.png')
+background: url('../css/resume-logo.jpeg');
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+min-height: 400px;
+min-width: 200px;
 
 }
