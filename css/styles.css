@@ -2,6 +2,28 @@
 
 
 
+/*---------------------------colors----------------*/
+
+
+.ui-menu-color-home {
+    background-color: #c7986e;
+}
+
+.ui-menu-color-education {
+    background-color: #b3c7b8;
+}
+
+.ui-menu-color-skills {
+    background-color: #294457;
+}
+
+.ui-menu-color-projects {
+    background-color: #a34f4f;
+}
+
+
+
+
 
 /*--------------------- Heading--------------------*/
 .logo{
@@ -55,4 +77,63 @@ margin-left: 0px;
 
 .personal-info .key p {
     font-weight: 700;
+}
+
+/******nav bar ************/
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #347c9e;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
