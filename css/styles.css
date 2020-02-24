@@ -6,22 +6,27 @@
 
 
 .ui-menu-color-home {
-    background-color: #c7986e;
+    background-color: rgb(238, 231, 231);
 }
 
 .ui-menu-color-education {
-    background-color: #b3c7b8;
+    background-color: rgb(217, 235, 222);
 }
 
 .ui-menu-color-skills {
-    background-color: #294457;
+    background-color: rgb(218, 221, 228);
 }
 
 .ui-menu-color-projects {
-    background-color: #a34f4f;
+    background-color: rgb(243, 220, 236);
 }
 
+/*** body *****/
 
+.content{
+
+    background-color:rgb(224, 223, 216);
+}
 
 
 
@@ -42,12 +47,33 @@ min-width: 200px;
 padding-left: 0px;
 padding-right:0;
 margin-left: 0px;
+width: 100%
 }
 
 .name-job {
     margin-bottom: 60px;
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
+
+
+.name-job>h1 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+     font-weight: 300;
+    letter-spacing: 2px;
+}
+ .name-job>h2 {
+    font-size: 2.5rem;
+    margin-left: 40px;
+    text-transform: uppercase;
+     font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+   
 
 /*** Personal info item ------------------------*/
 
@@ -61,7 +87,15 @@ margin-left: 0px;
 .personal-info .value {
     padding-right: 8px;
     display: inline-block;
+    
+    text-transform: uppercase;
+    
+    font-weight: 300;
+    letter-spacing: 2px;
+    
 }
+
+
 
 .personal-info .key p,
 .personal-info .value p {
@@ -76,9 +110,12 @@ margin-left: 0px;
 }
 
 .personal-info .key p {
-    font-weight: 700;
+    font-weight: 300;
 }
+.profile-info{
+height:320px;
 
+}
 /******nav bar ************/
 
 
@@ -108,7 +145,7 @@ margin-left: 0px;
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: rgb(15, 15, 15);
     height: 120px;
 }
 
@@ -142,30 +179,326 @@ margin-left: 0px;
 /****** Footer ******/
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #badbc6;
+   color: rgb(32, 28, 28);;
     min-height: 120px;
     margin: 0;
 }
 
- 
+
+footer {
+    display: inlineblock;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+ footer  h5{
+     font-weight:300;
+ }
+
+ /**** Do this to prevent overflow**/
+ footer row{
+     margin-right:0px; 
+ }
 /****** About me ******/
 
 .aboutme h3{
 
     text-align: center;
+   text-transform: uppercase;
+
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 .aboutme>p{
 
 text-align:center;
 padding-bottom: 30px;
+font-size:0.5em;
+
 }
 
 .aboutme{
-   padding-top: 25px;
+  
    margin-top: 30px;
     margin-left:auto;
     margin-right:auto;
-padding-bottom: 25px;
+
 }
 
+#me{
+
+    display: block;
+letter-spacing: 2px;
+font-weight: 300;
+}
+/******* Add quotes *****/
+
+.row{
+
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#me::before{
+
+
+    content: open-quote;
+    font-size:1rem;
+}
+
+#me::after{
+
+    content: close-quote;
+
+    font-size:1rem;
+}
+
+/************* Time line *******************************/
+
+
+
+body {
+    margin-top: 20px;
+    background-color: #f0f6ff;
+}
+
+
+/*timeline*/
+
+a {
+    text-decoration: none
+}
+
+
+.main-timeline3 {
+    overflow: hidden;
+    position: relative
+}
+
+.main-timeline3 .timeline {
+    position: relative;
+    margin-top: -79px
+}
+
+.main-timeline3 .timeline:first-child {
+    margin-top: 0
+}
+
+.main-timeline3 .timeline-icon,
+.main-timeline3 .year {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline3 .timeline:after,
+.main-timeline3 .timeline:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both
+}
+
+.main-timeline3 .timeline:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2
+}
+
+.main-timeline3 .timeline-icon {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 25px solid transparent;
+    border-top-color: #dbc0c3;
+    border-right-color: #dbc0c3;
+    z-index: 1;
+    transform: rotate(45deg)
+}
+
+.main-timeline3 .year {
+    display: block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .4);
+    font-size: 12px;
+    font-weight: 700;
+    color: #dbc0c3;
+    text-align: center;
+    transform: rotate(-45deg)
+}
+
+.main-timeline3 .timeline-content {
+    width: 35%;
+    float: right;
+    background: #c9b5b7;
+    padding: 30px 20px;
+    margin: 50px 0;
+    box-shadow: 0 10px 25px -10px rgba(72, 29, 99, .3);
+    z-index: 1;
+    position: relative
+}
+
+.main-timeline3 .timeline-content:before {
+    content: "";
+    width: 20%;
+    height: 15px;
+    background: #dbc0c3;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    z-index: -1;
+    transform: translateY(-50%)
+}
+
+.main-timeline3 .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 10px
+}
+
+.main-timeline3 .description {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    margin: 0
+}
+
+.main-timeline3 .timeline:nth-child(2n) .timeline-icon {
+    transform: rotate(-135deg);
+    border-top-color: #e97e2e;
+    border-right-color: #e97e2e
+}
+
+.main-timeline3 .timeline:nth-child(2n) .year {
+    transform: rotate(135deg);
+    color: #e97e2e
+}
+
+.main-timeline3 .timeline:nth-child(2n) .timeline-content {
+    float: left
+}
+
+.main-timeline3 .timeline:nth-child(2n) .timeline-content:before {
+    left: auto;
+    right: -20%
+}
+
+.main-timeline3 .timeline:nth-child(2n) .timeline-content,
+.main-timeline3 .timeline:nth-child(2n) .timeline-content:before {
+    background: #e97e2e
+}
+
+.main-timeline3 .timeline:nth-child(3n) .timeline-icon {
+    border-top-color: #13afae;
+    border-right-color: #13afae
+}
+
+.main-timeline3 .timeline:nth-child(3n) .year {
+    color: #13afae
+}
+
+.main-timeline3 .timeline:nth-child(3n) .timeline-content,
+.main-timeline3 .timeline:nth-child(3n) .timeline-content:before {
+    background: #13afae
+}
+
+.main-timeline3 .timeline:nth-child(4n) .timeline-icon {
+    border-top-color: #105572;
+    border-right-color: #105572
+}
+
+.main-timeline3 .timeline:nth-child(4n) .year {
+    color: #105572
+}
+
+.main-timeline3 .timeline:nth-child(4n) .timeline-content,
+.main-timeline3 .timeline:nth-child(4n) .timeline-content:before {
+    background: #105572
+}
+
+@media only screen and (max-width:1199px) {
+    .main-timeline3 .timeline {
+        margin-top: -103px
+    }
+    .main-timeline3 .timeline-content:before {
+        left: -18%
+    }
+    .main-timeline3 .timeline:nth-child(2n) .timeline-content:before {
+        right: -18%
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .main-timeline3 .timeline {
+        margin-top: -127px
+    }
+    .main-timeline3 .timeline-content:before {
+        left: -2%
+    }
+    .main-timeline3 .timeline:nth-child(2n) .timeline-content:before {
+        right: -2%
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .main-timeline3 .timeline {
+        margin-top: 0;
+        overflow: hidden
+    }
+    .main-timeline3 .timeline:before,
+    .main-timeline3 .timeline:nth-child(2n):before {
+        box-shadow: none
+    }
+    .main-timeline3 .timeline-icon,
+    .main-timeline3 .timeline:nth-child(2n) .timeline-icon {
+        margin-top: -30px;
+        margin-bottom: 20px;
+        position: relative;
+        transform: rotate(135deg)
+    }
+    .main-timeline3 .timeline:nth-child(2n) .year,
+    .main-timeline3 .year {
+        transform: rotate(-135deg)
+    }
+    .main-timeline3 .timeline-content,
+    .main-timeline3 .timeline:nth-child(2n) .timeline-content {
+        width: 100%;
+        float: none;
+        border-radius: 0 0 20px 20px;
+        text-align: center;
+        padding: 25px 20px;
+        margin: 0 auto
+    }
+    .main-timeline3 .timeline-content:before,
+    .main-timeline3 .timeline:nth-child(2n) .timeline-content:before {
+        width: 15px;
+        height: 25px;
+        position: absolute;
+        top: -22px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%, 0)
+    }
+}
+
+
+
+/*end timeline*/
