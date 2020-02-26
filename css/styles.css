@@ -224,7 +224,7 @@ font-size:0.5em;
 
 .aboutme{
   
-   margin-top: 30px;
+   margin-top: 179px;
     margin-left:auto;
     margin-right:auto;
 
@@ -344,6 +344,18 @@ a {
     transform: rotate(-45deg)
 }
 
+  /***** add css for NPL hover https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering***/
+#NPL > div.timeline-content > img{
+    float:left;
+    height:60px;
+    width:100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/***************/
+
 .main-timeline3 .timeline-content {
     width: 35%;
     float: right;
@@ -371,7 +383,8 @@ a {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    margin-bottom:30px;
 }
 
 .main-timeline3 .description {
@@ -498,6 +511,76 @@ a {
         transform: translate(-50%, 0)
     }
 }
+
+
+/****** Lists *****/
+
+#NPL > div.timeline-content > ul{
+  
+  list-style-type: square;
+        text-align: center;
+   text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: inline;
+
+
+
+}
+/**** extra addition to bring the stuff upp*****/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+    
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.pt-5, .py-5 {
+    padding-top: 179px!important;
+}
+
 
 
 
