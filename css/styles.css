@@ -608,10 +608,295 @@ margin-bottom: 10px;
     margin-top: 5px;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 .timeline-item h3:before {
     content:'\25BA'
 }
 /*end timeline*/
+
+/*----------------------------------------------------
+ 7.	Technical Skills Style
+------------------------------------------------------*/
+.row.skills{
+
+padding-left: 72px;
+}
+.addspace {
+	height:60px;
+	background:#eeeeee;
+}
+.technical {
+	background:#eeeeee;
+	color:#474d5d;
+}
+.technical .container {
+	padding-top:85px;
+	padding-bottom:69px;
+}
+.technical .heading p {
+	padding-bottom:41px;
+}
+.technical p {
+	color:#474d5d;
+}
+.technical h2 {
+	color:#ff675f;
+}
+.technical .skillsArea {
+	padding:0px;
+}
+.technical .skills {
+	margin:0 auto;
+	margin-bottom:23px;
+	text-align:center;
+	padding:0px;
+	float:none;
+}
+.technical .skills p {
+	color:#84868d;
+	font-size:13px;
+	line-height:18px;
+	text-align:center;
+}
+.technical .skills img {
+	margin:0 auto;
+	margin-bottom:33px;
+	width:100%;
+	max-width:152px;
+}
+.technical .skills h4 {
+	font-weight:700;
+	text-transform:uppercase;
+}
+.skilBg {
+	background:url(../images/skills.png) no-repeat 0 0;
+}
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 152px;
+	height: 152px;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.percent {
+	display: inline-block;
+	font-size:21px;
+	color:#474d5d;
+	line-height: 152px;
+	z-index: 2;
+}
+.percent:after {
+	content: '%';
+	margin-left: 0.1em;
+	font-size: .8em;
+}
+.angular {
+	margin-top: 100px;
+}
+.angular .chart {
+	margin-top: 0;
+}
+
+/****** circle animation ************/
+
+.wrapper {
+  width: 100px; /* Set the size of the progress bar */
+  height: 100px;
+  position: absolute; /* Enable clipping */
+  clip: rect(0px, 100px, 100px, 50px); /* Hide half of the progress bar */
+  margin-top: 40px;
+  margin-left: 30px;
+
+}
+/* Set the sizes of the elements that make up the progress bar */
+
+
+.circle65 {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+
+.circle70 {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+
+
+.circle90 {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 10px solid green;
+  border-radius: 50px;
+  position: absolute;
+  clip: rect(0px, 50px, 100px, 0px);
+}
+/* Using the data attributes for the animation selectors. */
+/* Base settings for all animated elements */
+div[data-anim~=base] {
+  -webkit-animation-iteration-count: 1;  /* Only run once */
+  -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+  -webkit-animation-timing-function:linear; /* Linear animation */
+}
+
+.wrapper[data-anim~=wrapper] {
+  -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+ 
+  -webkit-animation-name: close-wrapper; /* Keyframes name */
+}
+
+
+.circle65[data-anim~=left] {
+  -webkit-animation-duration: 3s; /* Full animation time */
+  -webkit-animation-name: left-spin65;
+}
+
+
+
+.circle70[data-anim~=left] {
+  -webkit-animation-duration: 3s; /* Full animation time */
+  -webkit-animation-name: left-spin70;
+}
+
+
+.circle90[data-anim~=left] {
+  -webkit-animation-duration: 3s; /* Full animation time */
+  -webkit-animation-name: left-spin90;
+}
+
+
+.circle[data-anim~=left] {
+  -webkit-animation-duration: 3s; /* Full animation time */
+  -webkit-animation-name: left-spin;
+}
+.circle65[data-anim~=right] {
+  -webkit-animation-duration: 3s; /* Half animation time */
+  -webkit-animation-name: right-spin65;
+}
+
+
+
+.circle70[data-anim~=right] {
+  -webkit-animation-duration: 3s; /* Half animation time */
+  -webkit-animation-name: right-spin70;
+}
+
+.circle90[data-anim~=right] {
+  -webkit-animation-duration: 3s; /* Half animation time */
+  -webkit-animation-name: right-spin90;
+}
+
+.circle[data-anim~=right] {
+  -webkit-animation-duration: 3s; /* Half animation time */
+  -webkit-animation-name: right-spin;
+}
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+
+@-webkit-keyframes right-spin65 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes right-spin70 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+
+@-webkit-keyframes right-spin90 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes right-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(180deg);
+  }
+}
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin65 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(237deg);
+  }
+}
+
+
+@-webkit-keyframes left-spin70 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(252deg);
+  }
+}
+
+
+
+@-webkit-keyframes left-spin90 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(324deg);
+  }
+}
+
+@-webkit-keyframes left-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+  to {
+    clip: rect(auto, auto, auto, auto);
+  }
+}
