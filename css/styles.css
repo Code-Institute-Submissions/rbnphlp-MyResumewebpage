@@ -698,12 +698,7 @@ padding-left: 72px;
 	margin-left: 0.1em;
 	font-size: .8em;
 }
-.angular {
-	margin-top: 100px;
-}
-.angular .chart {
-	margin-top: 0;
-}
+
 
 /****** circle animation ************/
 
@@ -722,7 +717,7 @@ padding-left: 72px;
 .circle65 {
   width: 80px;
   height: 80px;
-  border: 10px solid green;
+  border: 10px solid rgb(182, 190, 58);
   border-radius: 50px;
   position: absolute;
   clip: rect(0px, 50px, 100px, 0px);
@@ -732,7 +727,7 @@ padding-left: 72px;
 .circle70 {
   width: 80px;
   height: 80px;
-  border: 10px solid green;
+  border: 10px solid rgb(154, 181, 255);
   border-radius: 50px;
   position: absolute;
   clip: rect(0px, 50px, 100px, 0px);
@@ -743,7 +738,7 @@ padding-left: 72px;
 .circle90 {
   width: 80px;
   height: 80px;
-  border: 10px solid green;
+  border: 10px solid rgb(255, 0, 0);
   border-radius: 50px;
   position: absolute;
   clip: rect(0px, 50px, 100px, 0px);
