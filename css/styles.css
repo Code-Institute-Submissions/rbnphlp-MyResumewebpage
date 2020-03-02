@@ -264,7 +264,7 @@ margin-right: auto;
 
 
 body {
-    margin-top: 20px;
+   
     background-color: #f0f6ff;
 }
 
@@ -894,4 +894,35 @@ div[data-anim~=base] {
   to {
     clip: rect(auto, auto, auto, auto);
   }
+}
+
+.container.skillsec{
+
+
+  background-color: rgb(252, 251, 251);
+}
+
+/*********************** Projects Styling *****************/
+
+img[alt~="nplposter1"],img[alt~="nplposter2"],img[alt~="MVAanalyis"],img[alt~="Dissertation"],img[alt~="clusteranalysis"],img[alt~="datavis"] {
+    border: 3px solid rgb(180, 204, 223);
+    height: 350px;
+    width: 277px;
+    margin-bottom:30px;
+
+}
+
+h5.font_5{
+    margin-bottom:50px;
+    margin-top: 50px;
+}
+.container.projectsec {
+    background-color: rgb(252, 251, 251);
+}
+
+/** overall ***/
+
+.row{
+
+    background-color: rgb(238, 234, 234);
 }
