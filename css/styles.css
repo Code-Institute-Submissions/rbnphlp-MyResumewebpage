@@ -577,9 +577,7 @@ li.timeline-item::before {
     z-index: 400;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-.pt-5, .py-5 {
-    padding-top: 179px!important;
-}
+
 
 .timeline-item img{
 height: 70px;
@@ -621,7 +619,7 @@ margin-bottom: 10px;
 ------------------------------------------------------*/
 .row.skills{
 
-padding-left: 72px;
+padding-left: 62px;
 }
 .addspace {
 	height:60px;
@@ -669,9 +667,13 @@ padding-left: 72px;
 .technical .skills h4 {
 	font-weight:700;
 	text-transform:uppercase;
+    text-align: center;
 }
+
+
 .skilBg {
 	background:url(../images/skills.png) no-repeat 0 0;
+    text-align: center;
 }
 .chart {
 	position: relative;
@@ -896,11 +898,7 @@ div[data-anim~=base] {
   }
 }
 
-.container.skillsec{
 
-
-  background-color: rgb(252, 251, 251);
-}
 
 /*********************** Projects Styling *****************/
 
@@ -914,15 +912,43 @@ img[alt~="nplposter1"],img[alt~="nplposter2"],img[alt~="MVAanalyis"],img[alt~="D
 
 h5.font_5{
     margin-bottom:50px;
-    margin-top: 50px;
-}
-.container.projectsec {
-    background-color: rgb(252, 251, 251);
+    margin-top: 21rem;
 }
 
-/** overall ***/
+/** Projects contact form ***/
+.contact-heading{
 
-.row{
+    font-family:'Exo',sans-serif;
+    font-weight:300;
+    margin-top: 25px;
+    margin-bottom: 20px;
 
-    background-color: rgb(238, 234, 234);
+
+
+}
+
+.center-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+
+}
+
+button[type='submit']{
+margin-top: 15px;
+margin-bottom: 20px;
+background-color:#e84610;
+
+
+}
+.bg-color-contact{
+
+padding-top:30px;
+padding-bottom:30px;
+
+}
+.contact{
+
+    margin-top: 21rem;
+    margin-bottom: 21rem;
 }
