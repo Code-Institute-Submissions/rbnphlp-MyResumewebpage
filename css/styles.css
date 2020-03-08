@@ -21,7 +21,30 @@
     background-color: rgb(243, 220, 236);
 }
 
-/*** body *****/
+/*** body  added from https://github.com/sixrevisions/responsive-full-background-image/blob/master/responsive-full-background-image.css*****/
+
+
+/** background image ***/
+
+body{
+
+/* Location of the image */
+  background-image: url(../css/myresume/backgd.jpg);
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+
+
+}
+
 
 .content{
 
@@ -235,6 +258,8 @@ font-size:0.5em;
     display: block;
 letter-spacing: 2px;
 font-weight: 300;
+text-align: center;
+
 }
 /******* Add quotes *****/
 
@@ -615,7 +640,7 @@ margin-bottom: 10px;
 /*end timeline*/
 
 /*----------------------------------------------------
- 7.	Technical Skills Style
+ 7.	Technical Skills Style https://stackoverflow.com/questions/14222138/css-progress-circle
 ------------------------------------------------------*/
 .row.skills{
 
@@ -668,6 +693,7 @@ padding-left: 62px;
 	font-weight:700;
 	text-transform:uppercase;
     text-align: center;
+    color:#e84610;
 }
 
 
@@ -905,7 +931,7 @@ div[data-anim~=base] {
 img[alt~="nplposter1"],img[alt~="nplposter2"],img[alt~="MVAanalyis"],img[alt~="Dissertation"],img[alt~="clusteranalysis"],img[alt~="datavis"] {
     border: 3px solid rgb(180, 204, 223);
     height: 350px;
-    width: 277px;
+    width: 240px;
     margin-bottom:30px;
 
 }
@@ -952,3 +978,4 @@ padding-bottom:30px;
     margin-top: 21rem;
     margin-bottom: 21rem;
 }
+
