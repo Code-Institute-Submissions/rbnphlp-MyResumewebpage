@@ -1,3 +1,3 @@
 index.html
-../css/
+/css/styles.css
 
