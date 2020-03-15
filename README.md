@@ -7,6 +7,7 @@
 The project is an attempt to present my resume in a user friendly and interactive webpage.
 
 + The Skeleton Layout:
+     >![](https://github.com/rbnphlp/MyResumewebpage/blob/master/css/myresume/Slide1.jpg)
 
     - A Header : Contains a profile picture of me and  my title 
     - Nav bar with interatcivty : A  Navbar under header which highlights according to the section in
