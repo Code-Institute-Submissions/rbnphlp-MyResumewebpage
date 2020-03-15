@@ -68,4 +68,5 @@ Inspiration from :
 ## Media
 
 ## Acknowledgements
-
+ Thanks for Code institute and their awesome tutor support team along with my mentor :)
+ 
