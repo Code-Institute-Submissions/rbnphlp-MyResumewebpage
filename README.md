@@ -1,6 +1,6 @@
 # My Resume Webpage
 
-> Include a screen shot of the completed project 
+> ![resume](../css/myresume/resume.png)
 
 ## UX Design 
 
