@@ -1,6 +1,6 @@
 # My Resume Webpage
 
-> ![resume](../css/myresume/resume.png)
+> ![](https://github.com/rbnphlp/MyResumewebpage/blob/master/css/myresume/resume.png)
 
 ## UX Design 
 
