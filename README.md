@@ -89,7 +89,12 @@ The project is an attempt to present my resume in a user friendly and interactiv
 
 
 ## Deployment
-Github pages
+
+The Web pages was deployed through following :
++ Set up  a index html and css folder and all the associated iages  in the master branch  folder 
++ Setup github pages through https://help.github.com/en/enterprise/2.14/user/articles/configuring-a-publishing-source-for-     github-pages
+
+
 
 ## Credits
 
