@@ -51,7 +51,41 @@ The project is an attempt to present my resume in a user friendly and interactiv
 
 ## Testing
 
- To be added 
+
+
++ Navigation bar :
+     - Href links to correct elements -checked and working
+     - Nav Bar correcly alligned and rescaled for different screen sizes ( small,med,large)
+
++ Experience :
+     - Loaded image links in various browsers (Firefox and Chrome)
+     -  Tested if elements correctly rescaled and alligned for different screen sizes
++ Skill Section :
+     - Correctly loaded interactive animations 
+     - Navigate to skill section and refresh page to see skill animations running
+     - Currently the animation appears static as the time taken for the user to navigate to the skills section is greater
+       than the time for the animation to load ( ideally set this correctly for future)
+     - Tested if elements correctly rescaled and alligned for different screen sizes
+
++ Projects:
+     - Correctly rendered static image links
+     - Tested if any broken links on github
+     - Tested if elements correctly rescaled and alligned for different screen sizes
+     
++ Project Submission form :
+     - Gets an error if email does not contain @ 
+     - Project description field is a required field and error is given if not completed
+     - Tested if elements correctly rescaled and alligned for different screen sizes
+          
++ Footer:
+     - Click on the download link for the cv , opens on a new window
+     
+     
++ Full web page checks :
+     - Tested all of the below on Mobile (iphone 6/7/8) ,desktop (firefox and chrome) and Ipad screens
+     - Ran the web page for any html/css errors on https://validator.w3.org/
+     
+        
 
 
 ## Deployment
